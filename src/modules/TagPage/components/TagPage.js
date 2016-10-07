@@ -10,7 +10,7 @@ class TagPage extends Component {
     const positiveMentions = isNumeric(tag.sentiment.positive);
     const totalMentions = negativeMentions + neutralMentions + positiveMentions;
     const pageTypes = Object.keys(tag.pageType).map(function(key) {
-      return <span key={key}>{key}: {tag.pageType[key]}</span>;
+      return <span className="pagetype" key={key}>{key}: {tag.pageType[key]}</span>;
     });
 
     return(
