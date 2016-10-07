@@ -5,10 +5,13 @@
 body {
     background: #efefef;
     margin: 0;
+    padding: 50px;
     font-family: 'Roboto', sans-serif;
     color: #333;
 }
 
 .container {
     padding: 50px;
+    background: #fff;
+    border-radius: 50px;
 }
